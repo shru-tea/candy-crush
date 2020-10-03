@@ -8,10 +8,7 @@
 
 body {
   background-image: url("img/candy-crush-background-2.png");
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
+ 
 }
 
 .grid {
@@ -20,7 +17,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-top: 60px;
-  margin-left: 30px;
+  
   background-color: rgba(109, 127, 151, 0.2);
   border-radius: 15px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.5) inset, 0 4px 7px rgba(0, 0, 0, 0.6);
@@ -79,10 +76,7 @@ body {
 .score-board {
   background-color: rosybrown;
   border-radius: 10px;
-  margin-top: 250px;
-  margin-left: 200px;
-  margin-bottom: 300px;
-  min-width: 200px;
+ 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
