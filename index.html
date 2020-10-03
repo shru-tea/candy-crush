@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css" />
     <script src="app.js" charset="UTF-8"></script>
     <title>Candy Crush Game</title>
   </head>
   <body>
-    <header class="title">
-      <h1>Candy Crush Game</h1>
-      <p>
-        This is a basic clone of the <br />
-        famous Candy Crush game made <br />using pure JavaScript.
-      </p>
-    </header>
-    <div class="score-board">
-      <h1>Score</h1>
-      <h1 id="score"></h1>
+      <div class="jumbotron text-center">
+  <h1>Candy Crush Game</h1>
+  <p> This is a basic clone of the <br />
+        famous Candy Crush game made <br />using pure JavaScript.</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-sm-12">
+	 <div class="score-board">
+      <h3>Score</h3>
+       <h1 id="score"></h1>
+	    </div>
     </div>
-    <div class="grid"></div>
+    <div class="col-md-6 col-sm-12">
+      <div class="grid"></div>
+    </div>
+   
+  </div>
+</div>
+   
   </body>
 </html>
